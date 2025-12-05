@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos de enlace</title>
+    <!--Voy a aplicar estilos a los enlaces. pseudoclases: se aplican distintos estados al enlace-->
+    <style>
+       a {
+            text-decoration: none; /*QUITA EL SUBRAYADO*/
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            padding: 10px; /*AUMENTA EL ESPACIO ENTRE EL TEXTO Y EL BORDE*/
+            border-radius: 10px; /*PONE EL BORDE REDONDEADO*/
+       } 
+       a:link { /*ESTADO NORMAL DEL ENLACE*/
+          background-color: yellow;  
+          color: white;
+       }
+       a:visited { /*YA HA SIDO VISITADO*/
+            background-color: white;
+            color: grey;
+        }
+        a:hover{ /*CUANDO EL RATON ESTA ENCIMA DEL ENLACE*/
+            background-color: chartreuse;
+            color: red;
+        }
+        a:active{ /*JUSTO SE ESTA HACIENDO CLICK EN EL ENLACE*/
+            font-weight: bolder;
+            color: orange;
+            text-shadow: 3px 3px 5px black ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propiedades de enlace</h1>
+    <a href="http://www.google.com">Contacto</a>
+    <a href="/PaginaEnlaces/index.html">volver</a>
+</body>
+</html>

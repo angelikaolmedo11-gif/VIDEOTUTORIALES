@@ -1,0 +1,6 @@
+h2 {color: aqua; font-size: 25px;}
+        p{ /*aqui igual pero con el parrafo */
+            color: green;
+            font-weight: bold;
+            font-size: 2em;
+        } /*si cambio algun parametro desde aqui se cambia en la pagina*/

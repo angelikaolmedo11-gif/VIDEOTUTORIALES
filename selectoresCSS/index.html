@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{ font-size: 3em;
+        text-align: center;
+        color: orange;
+        font-family:'Courier New', Courier, monospace}
+        h3{ color: rebeccapurple;
+        font-style: italic;}
+        #anuncio { border: 2px solid red; /*para poner el borde rojo*/ /* este es con el id, se pne # + el nombre que le he dado, aqui es donde puedo cambiar el formato del elemento selecionado*/
+        border-radius: 5px; /*el ancho del borde*/
+        text-align: center; /*que lo de dentro del recuadro quede centrado*/
+        background-color: bisque ; /*el color dentro del recuadro*/
+        font-weight: bold; /*que este en negrita*/
+    }
+        .leemas { /*este es con class, se pne . + el nombre que le he dado, aqui es donde puedo cambiar el formato del elemento selecionado*/
+            background-color: aqua;
+            color:brown ;
+        }  
+
+        h2,p { /* si quiero usar el CSS en varios sectores distintos a la vez, se separan con una coma*/
+            font-family:monospace;
+        }
+        p a {background-color: yellow;}/*si se ponen 2 selector separados por un espacio se aplicará a los enlaces que esten dentro de un párrafo. los que no esten dentro de un parrado no tomaran este formato*/
+        .importante {
+            background-color: beige;
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Periódico</h1>
+    <h2>La actualidad de tu pueblo</h2>
+<p id="anuncio">Susbcríbete ahora y ahorra un 20%</p> <!--id= "···" se usa para elementos que aparecen una sola.
+ vez en este caso el anucio para susbcribirte -->
+
+<h3>Actualidad</h3>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    Sapiente error corporis voluptas fugit ducimus ipsum fuga eius,
+    architecto quia est, suscipit nulla,
+    sunt consequuntur consectetur rerum! Veniam libero velit odio.
+    <a href="noticia.html">ir a la noticia</a>
+</p>
+<p class="leemas importante">leer más....</p> <!--las clases sirven para seleccionar varios elementos cuyo formato se repite-->
+<h3>Política</h3>
+<a href="noticia.html">ir a la noticia</a>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    Sapiente error corporis voluptas fugit ducimus ipsum fuga eius,
+    architecto quia est, suscipit nulla,
+    sunt consequuntur consectetur rerum! Veniam libero velit odio.</p>
+<p class="leemas">leer más....</p>
+<h3>Deportes</h3>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    Sapiente error corporis voluptas fugit ducimus ipsum fuga eius,
+    architecto quia est, suscipit nulla,
+    sunt consequuntur consectetur rerum! Veniam libero velit odio.</p>
+<p class="leemas">leer más....</p>
+<a href="/PaginaEnlaces/index.html">volver</a>
+</body>
+</html>
